@@ -148,7 +148,7 @@ if (age<18){
 
 ReactDom.render(
   <>
-  <h1>DRIVER'S LICENSE part 2</h1>
+  <h1>DRIVER'S LICENSE</h1>
   <table border="1px" cellSpacing={1}>
     <tr>
       <th>Date</th>
