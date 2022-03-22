@@ -148,7 +148,7 @@ if (age<18){
 
 ReactDom.render(
   <>
-  <h1>DRIVER'S LICENSE part 2</h1>
+  <h1>DRIVER'S LICENSE</h1>
   <table border="1px" cellSpacing={1}>
     <tr>
       <th>Date</th>
@@ -167,6 +167,7 @@ ReactDom.render(
   document.getElementById('root')
 )
 */
+/*
 import ReactDOM from 'react-dom';
 import React from 'react'
 //object creation
@@ -182,3 +183,37 @@ ReactDOM.render(
   </>,
   document.getElementById('root')
 )
+*/
+/*
+import ReactDOM from 'react-dom'
+import React from 'react'
+import './index.css'
+ReactDOM.render(
+  <>
+    <h1>Welcome to CSS world in react</h1>
+    <h2>Apples are Sweet</h2>
+    <p className="para">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+    </p>
+  </>,
+  document.getElementById('root')
+)
+
+*/
+import ReactDOM from 'react-dom'
+import React from 'react'
+import './index.css'
+ReactDOM.render(
+  <>
+    <h1>Welcome to CSS world in react</h1>
+    <p>We offer following courses:</p>
+    <ul>
+      <li>reactJS</li>
+      <li>angular</li>
+      <li>django</li>
+      <li>mongodb</li>
+    </ul>
+  </>,
+  document.getElementById('root')
+)
+
