@@ -123,7 +123,7 @@ ReactDom.render(
   document.getElementById('root')
 )
 */
-
+/*
 import ReactDom from  'react-dom'
 import React from 'react'
 
@@ -163,6 +163,22 @@ ReactDom.render(
       <td>{result}</td>
     </tr>
   </table>
+  </>,
+  document.getElementById('root')
+)
+*/
+import ReactDOM from 'react-dom';
+import React from 'react'
+//object creation
+//inline css
+const heading={
+  color:"red",
+  fontFamily:"arial",
+  backgroundColor:"yellow"
+}
+ReactDOM.render(
+  <>
+    <h1 style={heading}>Welcome to CSS world in react</h1>
   </>,
   document.getElementById('root')
 )
