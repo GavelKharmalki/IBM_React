@@ -200,6 +200,7 @@ ReactDOM.render(
 )
 
 */
+/*
 import ReactDOM from 'react-dom'
 import React from 'react'
 import './index.css'
@@ -215,5 +216,39 @@ ReactDOM.render(
     </ul>
   </>,
   document.getElementById('root')
+)
+*/
+// import ReactDOM from 'react-dom';
+// import React from 'react'
+// let curDate=new Date()
+// curDate=curDate.getHours()
+// let greetings=""
+// const cssStyle={}
+// if(curDate>=1 && curDate<12){
+//   greetings="Good Morning"
+//   cssStyle.color="green"
+// }else if(curDate>=12 && curDate<=16){
+//   greetings="Good Afternoon"
+//   cssStyle.color="red"
+// }else{
+//   greetings="Good Evening"
+//   cssStyle.color="orange"
+// }
+// ReactDOM.render(
+//   <>
+//     <h1>Welcome to Css world in react</h1>
+//     <h3 style={cssStyle}>{greetings}</h3>
+//   </>,
+//   document.getElementById("root"))
+
+import ReactDOM from 'react-dom'
+import React from 'react'
+import App from './App'
+ReactDOM.render(
+<>
+  <h2>Calling Components</h2>
+  <App/>
+</>,
+document.getElementById('root')
 )
 

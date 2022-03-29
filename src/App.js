@@ -1,25 +1,63 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from 'react'
+// function App() {
+//   var curDay=new Date()
+//   var cDay=curDay.getDay()
+//   var day=''
+//   const st={
+//     color:'red',
+//     FontFamily:'arial',
+//     backgroundColor:'yellow',
+//   }
+//   if(cDay==='1')
+//   {
+//     day="Monday"
+//   }else if(cDay==='2'){
+//     day="Tuesday"
+//   }else if(cDay==='3'){
+//     day="Wednesday"
+//   }else if(cDay==='4'){
+//     day="Thurssday"
+//   }else if(cDay==='5'){
+//     day="Friday"
+//   }else if(cDay==='6'){
+//     day="Saturday"
+//   }
+//   return <>
+//   <h1>Learning Components</h1>
+//   <h2>Today is <span style={st}>{day}</span></h2>
+//   </>
+// }
 
+// export default App;
+import React from 'react'
+import './index.css'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  var curDay=new Date()
+  var cDay=curDay.getDay()
+  var day=''
+  // const st={
+  //   color:'red',
+  //   FontFamily:'arial',
+  //   backgroundColor:'yellow',
+  // }
+  if(cDay=='1')
+  {
+    day="Monday"
+  }else if(cDay=='2'){
+    day="Tuesday"
+  }else if(cDay=='3'){
+    day="Wednesday"
+  }else if(cDay=='4'){
+    day="Thurssday"
+  }else if(cDay=='5'){
+    day="Friday"
+  }else if(cDay=='6'){
+    day="Saturday"
+  }
+  return <>
+  <h1>Learning Components</h1>
+  <h2>Today is <span className='info'>{day}</span></h2>
+  </>
 }
 
 export default App;
