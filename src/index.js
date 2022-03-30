@@ -243,11 +243,36 @@ ReactDOM.render(
 
 import ReactDOM from 'react-dom'
 import React from 'react'
-import App from './App'
-ReactDOM.render(
-<>
-  <h2>Calling Components</h2>
-  <App/>
+// import course,{favprog, topic,myName1,myName2} from './App'
+import * as ques from './App'
+ReactDOM.render(<>
+  <h2>Calling Components named values</h2>
+  <ul>
+    <li>
+      oracle
+    </li>
+    <li>
+      Java
+    </li>
+    {/* <li>
+      {course}
+    </li> */}
+    <li>
+      {ques.default}
+    </li>
+    <li>
+      {ques.favprog}
+    </li>
+    <li>
+      {ques.topic}
+    </li>
+    <li>
+      {ques.myName1()}
+    </li>
+    <li>
+      {ques.myName2()}
+    </li>
+  </ul>
 </>,
 document.getElementById('root')
 )
